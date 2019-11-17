@@ -18,7 +18,7 @@ module ExtractLayers
   )
   EXTENSION.creator     = "Eneroth3"
   EXTENSION.description =
-    "Extract Layers to new file. E.g. useful for copying them into other model."
+    "Extract Layers to new file, e.g. for re-use in new model."
   EXTENSION.version     = "1.0.0"
   EXTENSION.copyright   = "2018, #{EXTENSION.creator}"
   Sketchup.register_extension(EXTENSION, true)
